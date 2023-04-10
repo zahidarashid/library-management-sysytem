@@ -1,0 +1,66 @@
+.home {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://images.pexels.com/photos/1400031/pexels-photo-1400031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+     background-size: cover;
+}
+
+.landingpage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-size: cover;
+    /* border: 1px solid red; */
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+    border-radius: 10px;
+    position: relative;
+    animation:landing 5s infinite;
+}
+/* @keyframes landing {
+    from{top:0px}
+    to{top:200px}
+    
+} */
+
+
+.landingpage a {
+    padding: 15px 30px;
+    background-color: #bb1717;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.landingpage a:hover {
+    background-color: #fff;
+    color: #000;
+    
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+    border-radius: 5px;
+}
+
+.landingpage h1 {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 40px;
+}
+.landingpage h1{
+    color: #1a47db;
+    font-family: cursive;
+}
